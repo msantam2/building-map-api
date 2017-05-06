@@ -42,3 +42,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # gems that I installed (aka not default gems pre-installed)
 gem 'annotate'
+gem 'newrelic_rpm'

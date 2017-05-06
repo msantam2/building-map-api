@@ -1,7 +1,9 @@
 class Api::FeaturesController < ApplicationController
-  def create
+  def index
+    @features = Feature.all.includes(:coordinate)
+    render "api/features/index.json.jbuilder", status: 200
   end
 
-  def index
+  def create
   end
 end

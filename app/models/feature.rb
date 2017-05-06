@@ -11,4 +11,9 @@
 
 class Feature < ApplicationRecord
   validates :name, :coordinate_id, presence: true
+
+  has_one :coordinate,
+    primary_key: :coordinate_id, 
+    foreign_key: :id,
+    class_name: 'Coordinate'
 end

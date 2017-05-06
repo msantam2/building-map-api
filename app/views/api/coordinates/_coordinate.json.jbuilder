@@ -1,0 +1,1 @@
+json.extract! coordinate, :id, :cartesian_point

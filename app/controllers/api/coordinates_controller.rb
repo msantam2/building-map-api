@@ -1,7 +1,7 @@
 class Api::CoordinatesController < ApplicationController
-  def create
-  end
-  
   def show
+  end
+
+  def create
   end
 end
